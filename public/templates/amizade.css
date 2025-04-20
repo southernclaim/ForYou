@@ -1,0 +1,148 @@
+body {
+    background: url('/images/coracoes-fundo.png') center center fixed;
+    background-size: cover;
+    color: #ffccd5;
+    font-family: 'Cursive', sans-serif;
+  }
+  
+  .carta {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 0 10px rgba(255, 100, 150, 0.7);
+  }
+  
+  .remetente {
+    margin-top: 20px;
+    text-align: right;
+    font-style: italic;
+  }
+
+.topnav {
+    background-color: 	#300003;
+    overflow: hidden;
+    border-radius: 25px;
+    text-align: center;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: #5f0006;
+    color: #ffffff;
+  }
+  
+  .topnav a.active {
+    background-color: #5f0006;
+    color: white;
+  }
+  
+h1 {
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h2 {
+    color: white;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: medium;
+
+}
+p {
+    color: white;
+}
+
+.caixa {
+    background-color: #090a09;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+
+/* 
+a cor dos botões tem que ser #403644
+*/
+footer {
+    background-color: #300003;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.centralizado {
+    text-align: center;    
+}
+
+.botao {
+	box-shadow: 3px 4px 0px 0px #300003;
+	background-color:#403644;
+	border-radius:18px;
+	border:1px solid #300003;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810d05;
+}
+.botao:hover {
+	background-color:#300003;
+}
+.botao:active {
+	position:relative;
+	top:1px;
+}
+
+.form-enviar {
+    text-align: center;
+    background-color: #090a09;
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+}
+
+.form-enviar textarea {
+    background-color: #090a09;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    resize: none; 
+    height: 200px; 
+    font-size: 16px;
+}
+
+.form-enviar input {
+    background-color: #090a09;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+a {
+    color: white;
+}

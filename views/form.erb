@@ -1,0 +1,18 @@
+<br>
+<div class="form-enviar">
+<form class="form-enviar" action="/criar" method="POST">
+  <input type="text" name="titulo" placeholder="Título" required><br><br>
+  <input type="text" name="remetente" placeholder="Remetente" required><br>
+  <br>
+  <textarea name="conteudo" placeholder="Escreva sua carta aqui..." required></textarea><br>
+<br>
+  <select name="template">
+    <option value="amor">Carta de Amor</option>
+    <option value="amizade">Carta de Amizade</option>
+    <option value="agradecimento">Carta de Agradecimento</option>
+    <!-- outros -->
+  </select><br>
+<br>
+  <button class="botao" type="submit">Criar Carta</button>
+</form>
+</div>
